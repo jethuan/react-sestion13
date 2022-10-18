@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Users from "./components/Users";
-
+import UserFinder from "./components/UserFinder";
 function App() {
   return (
     <div className="App">
-      <Users />
+      <UserFinder />
     </div>
   );
 }
